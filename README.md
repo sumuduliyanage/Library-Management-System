@@ -36,13 +36,14 @@ You have to do below changes in the jupitor file before running it. These change
 
  - <b>Give correct path for the caffe models and prototxt files changing below 4 lines of code</b>
    
-   protoPathage = os.path.sep.join([r"path to the folder where deploy_age.prototxt is in",  "deploy_age.prototxt"])
+   <pre>protoPathage = os.path.sep.join([r"path to the folder where deploy_age.prototxt is in",  "deploy_age.prototxt"])
    
    modelPathage = os.path.sep.join([r"path to the folder where age_net.caffemodel is in","age_net.caffemodel"])
 
    protoPathgender = os.path.sep.join([r"path to the folder where deploy_gender.prototxt  is in",  "deploy_gender.prototxt"])
    
    modelPathgender = os.path.sep.join([r"path to the folder where gender net.caffemodel is in","gender_net.caffemodel"])
+   </pre>
 
 
  - <b>To load the pre-built model for facial detection, edit below line of code.</b>
