@@ -48,11 +48,11 @@ You have to do below changes in the jupitor file before running it. These change
 
  - <b>To load the pre-built model for facial detection, edit below line of code.</b>
  
-   face_cascade_path = os.path.sep.join([r"path to haarcascade code",  "haarcascade_frontalface_default.xml"])
+   <pre>face_cascade_path = os.path.sep.join([r"path to haarcascade code",  "haarcascade_frontalface_default.xml"])</pre>
    
  - <b>If you are running Age and Gender detection for Images.ipynb edit below line of code to add the path to the sample image. </b>
   
-   image = cv2.imread(r"Path to sample image")
+   <pre>image = cv2.imread(r"Path to sample image")<pre>
    
   By doing these changes you can successfully run the application. Make sure you have installed anaconda navigator , opencv and numpy libraries.
    
