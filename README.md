@@ -17,3 +17,21 @@ Caffe framework is used to train the data sets.
  - Age and Gender Detection11.ipynb
    \
   Prediction is done by capturing the video using the webcam. This is the real scenario happening in our project.
+  
+  
+ 
+## How To Run The Application.
+
+We can run the two jupytor files in the same way.
+
+To run the above two applications, you don't need to have all the files uploaded in this folder. Because it contains all the datasets and codes to train the datasets. You should have below files to run the code.
+ - jupytor notebook file
+ - gender_net.caffemodel
+ - age_net.caffemodel
+ - haarcascade folder
+ - deploy_age.prototxt
+ - deploy_gender.prototxt
+ 
+You have to do below changes in the jupitor file before running it. These changes are suitable for both jupytor files.
+
+ 
