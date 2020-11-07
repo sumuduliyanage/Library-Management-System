@@ -11,7 +11,9 @@ Both of these codes use the trained data models (age_net.caffemodel and gender_n
 Caffe framework is used to train the data sets.
    
  - Age and Gender detection for Images.ipynb
+    \
     Prediction is done for images saved in a folder.
     
  - Age and Gender Detection11.ipynb
+   \
   Prediction is done by capturing the video using the webcam. This is the real scenario happening in our project.
