@@ -34,4 +34,26 @@ To run the above two applications, you don't need to have all the files uploaded
  
 You have to do below changes in the jupitor file before running it. These changes are suitable for both jupytor files.
 
+ - Give correct path for the caffe models and prototxt files changing below 4 lines of code
+   
+   protoPathage = os.path.sep.join([r"path to the folder where deploy_age.prototxt is in",  "deploy_age.prototxt"])
+   
+   modelPathage = os.path.sep.join([r"path to the folder where age_net.caffemodel is in","age_net.caffemodel"])
+
+   protoPathgender = os.path.sep.join([r"path to the folder where deploy_gender.prototxt  is in",  "deploy_gender.prototxt"])
+   
+   modelPathgender = os.path.sep.join([r"path to the folder where gender net.caffemodel is in","gender_net.caffemodel"])
+
+
+ - To load the pre-built model for facial detection, edit below line of code.
  
+   face_cascade_path = os.path.sep.join([r"path to haarcascade code",  "haarcascade_frontalface_default.xml"])
+   
+ - If you are running Age and Gender detection for Images.ipynb edit below line of code to add the path to the sample image
+  
+   image = cv2.imread(r"Path to sample image")
+   
+  By doing these changes you can successfully run the application. Make sure you have installed anaconda navigator , opencv and numpy libraries.
+   
+
+
